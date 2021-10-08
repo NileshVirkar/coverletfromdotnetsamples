@@ -5,15 +5,15 @@
 		"password": ""
 	},
 	"repositories": [{
-		"dataDir": "D:/Shekhar-Acellere/Github-Repos/Coverlet/coverletfromdotnetsamples/dataDir",
+		"dataDir": "%WORKSPACE%/temp",
 		"repository": {
-			"uid": "1fbd6e201a4c9e0d4a27c23828695d09",
+			"uid": "2d1332576489e8d449f7a24874116ca2",
 			"projectName": "coverlet-dotnetsamples",
 			"languages": [
 				"C_SHARP"
 			],
 			"sources": {
-				"baseDir": "D:/Shekhar-Acellere/Github-Repos/Coverlet/coverletfromdotnetsamples",
+				"baseDir": "%WORKSPACE%",
 				"exclusions": [
 					"(?i)(.g.cs|example|mock|assemblyinfo.cs|.AssemblyAttributes.cs|.AnyCPU.Debug|.AnyCPU.Release)"
 				]
