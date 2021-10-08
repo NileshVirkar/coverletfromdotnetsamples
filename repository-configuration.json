@@ -1,0 +1,85 @@
+{
+	"gammaAccess": {
+		"url": "",
+		"userName": "",
+		"password": ""
+	},
+	"repositories": [{
+		"dataDir": "D:/Shekhar-Acellere/Github-Repos/Coverlet/coverletfromdotnetsamples/dataDir",
+		"repository": {
+			"uid": "1fbd6e201a4c9e0d4a27c23828695d09",
+			"projectName": "coverlet-dotnetsamples",
+			"languages": [
+				"C_SHARP"
+			],
+			"sources": {
+				"baseDir": "D:/Shekhar-Acellere/Github-Repos/Coverlet/coverletfromdotnetsamples",
+				"exclusions": [
+					"(?i)(.g.cs|example|mock|assemblyinfo.cs|.AssemblyAttributes.cs|.AnyCPU.Debug|.AnyCPU.Release)"
+				]
+			}
+		},
+		"settings": {
+			"additionalOptions": [],
+			"includePaths": []
+		},
+		"modules": {
+			"codeissues": [{
+					"name": "gamma_cs",
+					"enabled": true,
+					"config": {
+						"rules": [],
+						"options": []
+					}
+				},
+				{
+					"name": "gamma_generic",
+					"enabled": false,
+					"config": {
+						"rules": [],
+						"options": [{
+							"name": "reportDir",
+							"type": "upload",
+							"value": "",
+							"required": true
+						}]
+					}
+				}
+			],
+			"relevance": [{
+				"name": "relevance",
+				"enabled": true,
+				"config": {
+					"rules": [],
+					"options": []
+				}
+			}],
+			"unittest": [{
+				"name": "mstest",
+				"enabled": true,
+				"config": {
+					"rules": [],
+					"options": [{
+						"name": "reportDir",
+						"type": "upload",
+						"value": "",
+						"required": true
+					}]
+				}
+			}],
+			"coverage": [{
+				"name": "coverlet",
+				"enabled": true,
+				"config": {
+					"rules": [],
+					"options": [{
+						"name": "reportDir",
+						"type": "upload",
+						"value": "D:/Shekhar-Acellere/Github-Repos/Coverlet/coverletfromdotnetsamples/PrimeService.Tests",
+						"required": true
+					}]
+				}
+			}]
+		}
+	}]
+}
